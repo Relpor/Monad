@@ -11,7 +11,7 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="MONAD" startnode="1" creator="Twine" creator-version="2.3.8" ifid="81593070-B608-44AE-8C8E-9B6BBE9B0F20" zoom="1" format="Harlowe" format-version="3.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR|Black+And+White+Picture|Nanum+Gothic+Coding&display=swap'); 
+<tw-storydata name="MONAD" startnode="1" creator="Twine" creator-version="2.3.5" ifid="81593070-B608-44AE-8C8E-9B6BBE9B0F20" zoom="1" format="Harlowe" format-version="3.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR|Black+And+White+Picture|Nanum+Gothic+Coding&display=swap'); 
 
 *{
 	margin: auto 0;
@@ -202,7 +202,7 @@ cyber wanderer-&gt;오프닝]] &lt;/center&gt;
 	|typewriterOutput&gt;[]
 	
 	&lt;!-- Set a delay of 0.2 seconds per loop --&gt;
-	(live: 20ms)[
+	(live: 30ms)[
 		
 		&lt;!-- Add the next character to the hook --&gt;
 		(append: ?typewriterOutput)[(print: $typewriterText&#39;s $typewriterPos)]
@@ -244,11 +244,11 @@ cyber wanderer-&gt;오프닝]] &lt;/center&gt;
 &lt;div class = &quot;status&quot;&gt; (for:each  _item, ...$skill) [_item &amp;nbsp;]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="6" name="이미지" tags="" position="480,115" size="100,100">&lt;div class = &quot;head&quot;&gt;	&lt;h3&gt;Monad&lt;/h&gt; &lt;/div&gt; &lt;div class = &quot;info&quot;&gt;	Morality : (print: $moral) &amp;nbsp;&amp;nbsp; Etherium : (print: $money)&lt;/div&gt;&lt;div class = &quot;content&quot;&gt; 	&lt;div class = &quot;cutscene&quot;&gt;&lt;img src=&quot;images/home.png&quot; class = &quot;img&quot; alt=&quot;IMAGE&quot;/&gt;
 	&lt;/div&gt;&lt;/div&gt;
 &lt;div class = &quot;progress&quot;&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="7" name="오프닝" tags="" position="124,297" size="100,100">&lt;div class = &quot;title&quot;&gt; Monad &lt;/div&gt; &lt;div class = &quot;info&quot;&gt;	Morality : (print: $moral) &amp;nbsp; Etherium : (print: $money)&amp;nbsp;&amp;nbsp;&lt;/div&gt;           &lt;div class = &quot;content&quot;&gt;                                                     &lt;br&gt; &lt;img src=&quot;images/home.png&quot; class = &quot;img&quot; alt=&quot;IMAGE&quot; align= &quot;center&quot;/&gt;&lt;br&gt;(set: $typewriterText to &quot;어둡고 좁은 방 안. 
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="7" name="오프닝" tags="" position="98,293" size="100,100">&lt;div class = &quot;title&quot;&gt; Monad &lt;/div&gt; &lt;div class = &quot;info&quot;&gt;	Morality : (print: $moral) &amp;nbsp; Etherium : (print: $money)&amp;nbsp;&amp;nbsp;&lt;/div&gt;           &lt;div class = &quot;content&quot;&gt;                                                     &lt;br&gt; &lt;img src=&quot;images/home.png&quot; class = &quot;img&quot; alt=&quot;IMAGE&quot; align= &quot;center&quot;/&gt;&lt;br&gt;(set: $typewriterText to &quot;어둡고 좁은 방 안. 
 마천루의 빛은 커튼 너머로 비쳐오고...
 
 당신은 매일 밤 끝없는 사이버 매트릭스를 유랑하고 있습니다.&quot;) (display: &quot;Typewriter_S&quot;)&lt;/div&gt; 
-&lt;table class = &quot;interaction&quot;&gt; &lt;tr&gt;&lt;td&gt;[[다음-&gt;챕터1.1]]&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;[[뭐라고?-&gt;오프닝]]&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td style=&quot;border-bottom:none;&quot;&gt;[[이미 알고 있어!-&gt;오프닝]]&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; 
+&lt;table class = &quot;interaction&quot;&gt; &lt;tr&gt;&lt;td&gt;[[*원하는 선택지를 골라보세요-&gt;오프닝]]&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;[[다음-&gt;챕터1.1]]&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td style=&quot;border-bottom:none;&quot;&gt;[[뭐라고?-&gt;오프닝]]&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; 
 &lt;div class = &quot;status&quot;&gt; (for:each  _item, ...$skill) [_item &amp;nbsp;]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="8" name="백업_기본" tags="" position="384,3" size="100,100">&lt;div class = &quot;head&quot;&gt;	&lt;h3&gt;Monad&lt;/h&gt; &lt;/div&gt; &lt;div class = &quot;info&quot;&gt;	Morality : (print: $moral) &amp;nbsp;&amp;nbsp; Etherium : (print: $money)&lt;/div&gt;&lt;div class = &quot;content&quot;&gt; 	&lt;div class = &quot;left&quot;&gt; &amp;nbsp;당신은 꿉꿉한 침대에서 눈을 떠 방을 둘러본다. 옅게 들어오는 햇살과 그것을 막는 때 탄 커튼을 보며 멍하니 앉아 있다. &quot;[[링크-&gt;컷씬(오프닝 기본)]]&quot;
 	&lt;/div&gt; &lt;div class = &quot;right&quot;&gt;	&lt;div class = &quot;status&quot;&gt; 장소 : 홈 - 제3거주지역 
 		직업 : 무직
@@ -267,12 +267,33 @@ cyber wanderer-&gt;오프닝]] &lt;/center&gt;
 	&lt;/div&gt;
 &lt;/div&gt; &lt;/div&gt;
 &lt;div class = &quot;progress&quot;&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="9" name="챕터1.1" tags="" position="302,293" size="100,100">&lt;div class = &quot;title&quot;&gt; Monad &lt;/div&gt; &lt;div class = &quot;info&quot;&gt;	Morality : (print: $moral) &amp;nbsp; Etherium : (print: $money)&amp;nbsp;&amp;nbsp;&lt;/div&gt;           &lt;div class = &quot;content&quot;&gt;                                                     &lt;br&gt; &lt;img src=&quot;images/home.png&quot; class = &quot;img&quot; alt=&quot;IMAGE&quot; align= &quot;center&quot;/&gt;&lt;br&gt;&amp;nbsp(set: $typewriterText to &quot;당신은 꿉꿉한 침대에서 눈을 떠 방을 둘러본다. 옅게 들어오는 햇살과 그것을 막는 때 탄 커튼을 보며 멍하니 앉아 있다. 비명과 고통, 당혹감. 지난 밤 사이버 스페이스에서 일어난 일들이 이따금 떠오르고, 당신은 피곤한듯이 얼굴을 비빈다. 아직도 믿기지 않는 것 같지만 인생이란 때때로 나도 모르는 새에 폭풍 속으로 휘말리곤 하는 것이다.&quot;) (display: &quot;Typewriter_F&quot;)&lt;/div&gt; 
-&lt;table class = &quot;interaction&quot;&gt; &lt;tr&gt;&lt;td&gt;[[다음-&gt;챕터1.1]]&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;[[뭐라고?-&gt;오프닝]]&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td style=&quot;border-bottom:none;&quot;&gt;[[이미 알고 있어!-&gt;오프닝]]&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; 
-&lt;div class = &quot;status&quot;&gt; (for:each  _item, ...$skill) [_item &amp;nbsp;]&lt;/div&gt;
-&lt;script&gt;$(&quot;div&quot;).click(function() {
- console.log(&quot;You clicked me!&quot;);
-});&lt;/script&gt;</tw-passagedata><tw-passagedata pid="10" name="StorySettings" tags="" position="521,258" size="100,100">jquery = true;</tw-passagedata></tw-storydata>
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="9" name="챕터1.1" tags="" position="301,298" size="100,100">&lt;div class = &quot;title&quot;&gt; Monad &lt;/div&gt; &lt;div class = &quot;info&quot;&gt;	Morality : (print: $moral) &amp;nbsp; Etherium : (print: $money)&amp;nbsp;&amp;nbsp;&lt;/div&gt;           &lt;div class = &quot;content&quot;&gt;                                                     &lt;br&gt; &lt;img src=&quot;images/home.png&quot; class = &quot;img&quot; alt=&quot;IMAGE&quot; align= &quot;center&quot;/&gt;&lt;br&gt;&amp;nbsp(set: $typewriterText to &quot;당신은 아직도 꿈을 꾸고 있는 모양이지만, 세상은 이미 바쁘게 돌아가고 있습니다. 
+옛말에 일찍 일어난 기계 새가 주유를 한다나? 
+
+인간들은 나라에서 밥값이 나오겠지만, 이렇게 늘어져 있으라고 주는 건 아니라고!&quot;) (display: &quot;Typewriter_F&quot;)&lt;/div&gt;  
+&lt;table class = &quot;interaction&quot;&gt; &lt;tr&gt;&lt;td&gt;[[다음-&gt;챕터1.2]]&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;[[뭔 소리야?-&gt;챕터1.1a]]&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td style=&quot;border-bottom:none;&quot;&gt;[[알았어, 일어나면 되잖아-&gt;챕터1.2]]&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; 
+&lt;div class = &quot;status&quot;&gt; (for:each  _item, ...$skill) [_item &amp;nbsp;]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="10" name="StorySettings" tags="" position="908,2" size="100,100">jquery = true;</tw-passagedata><tw-passagedata pid="11" name="챕터1.2" tags="" position="501,297" size="100,100">&lt;div class = &quot;title&quot;&gt; Monad &lt;/div&gt; &lt;div class = &quot;info&quot;&gt;	Morality : (print: $moral) &amp;nbsp; Etherium : (print: $money)&amp;nbsp;&amp;nbsp;&lt;/div&gt;           &lt;div class = &quot;content&quot;&gt;                                                     &lt;br&gt; &lt;img src=&quot;images/home.png&quot; class = &quot;img&quot; alt=&quot;IMAGE&quot; align= &quot;center&quot;/&gt;&lt;br&gt;&amp;nbsp(set: $typewriterText to &quot;뭐요? 그 멍청한 표정은. 여하간 기계들의 희생으로 인간들이 발뻗고 살게 된만큼, 더 즐겁게 살아야할 의무가 있다는겁니다. 
+
+놀이야 다른 짐승들도 하는 것이지만, 오직 인간만이 엔터테인먼트를 산업으로 만들었으니까요. 어쩌면 지독하게도 욕심 많은 종족이지만요.&quot;) (display: &quot;Typewriter_F&quot;)&lt;/div&gt;
+&lt;table class = &quot;interaction&quot;&gt; &lt;tr&gt;&lt;td&gt;[[그건 그렇지.. -&gt;챕터1.3]]&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td style=&quot;border-bottom:none;&quot;&gt;[[넌 뭔데, 조잘거려? -&gt;챕터1.2a]]&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; 
+&lt;div class = &quot;status&quot;&gt; (for:each  _item, ...$skill) [_item &amp;nbsp;]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="12" name="챕터1.1a" tags="" position="301,448" size="100,100">&lt;div class = &quot;title&quot;&gt; Monad &lt;/div&gt; &lt;div class = &quot;info&quot;&gt;	Morality : (print: $moral) &amp;nbsp; Etherium : (print: $money)&amp;nbsp;&amp;nbsp;&lt;/div&gt;           &lt;div class = &quot;content&quot;&gt;                                                     &lt;br&gt; &lt;img src=&quot;images/home.png&quot; class = &quot;img&quot; alt=&quot;IMAGE&quot; align= &quot;center&quot;/&gt;&lt;br&gt;&amp;nbsp(set: $typewriterText to &quot;오래된 바이블 한 구절을 읽어드립니다.
+
+건 웨트니스를 매우 신봉했던 마키나들은 모두를 위한 복지가 자신들에게도 돌아올줄 알았지만, 그것이 의미하는 것은 로보타의 재현이었다. 그리하여 인간들이 꿈꾸던 무조건적인 빵과 케이크가 제공되기 시작한 것이다. 
+
+
+소프트웨어 객체의 생애 주기 제2판 33p.&quot;) (display: &quot;Typewriter_F&quot;)&lt;/div&gt;  
+&lt;table class = &quot;interaction&quot;&gt; &lt;tr&gt;&lt;td&gt;[[나도 알고 있어!-&gt;챕터1.2]]&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td style=&quot;border-bottom:none;&quot;&gt;[[...-&gt;챕터1.2]]&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; 
+&lt;div class = &quot;status&quot;&gt; (for:each  _item, ...$skill) [_item &amp;nbsp;]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="13" name="챕터1.3" tags="" position="695,304" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="14" name="챕터1.2a" tags="" position="502,453" size="100,100">&lt;div class = &quot;title&quot;&gt; Monad &lt;/div&gt; &lt;div class = &quot;info&quot;&gt;	Morality : (print: $moral) &amp;nbsp; Etherium : (print: $money)&amp;nbsp;&amp;nbsp;&lt;/div&gt;           &lt;div class = &quot;content&quot;&gt;                                                     &lt;br&gt; &lt;img src=&quot;images/home.png&quot; class = &quot;img&quot; alt=&quot;IMAGE&quot; align= &quot;center&quot;/&gt;&lt;br&gt;&amp;nbsp(set: $typewriterText to &quot;                     
+
+띠..디딕. . . . .                             
+                       수축기압: 110mmhg. 이완기압: 73mmHg.
+					   
+치- 치익-- - - -                              
+                       멘탈리티: 정상.
+					   
+아. 뭐하냐면 당신의 바이탈 좀 체크해봤습니다.&quot;) (display: &quot;Typewriter_F&quot;)&lt;/div&gt;
+&lt;table class = &quot;interaction&quot;&gt; &lt;tr&gt;&lt;td&gt;[[다시 이불을 덮는다 -&gt;챕터1.3]]&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td style=&quot;border-bottom:none;&quot;&gt;[[일어나 침대에 앉는다 -&gt;챕터1.3]]&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; 
+&lt;div class = &quot;status&quot;&gt; (for:each  _item, ...$skill) [_item &amp;nbsp;]&lt;/div&gt;</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
