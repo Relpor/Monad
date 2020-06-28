@@ -111,7 +111,7 @@ tw-link.visited{color:orange;}
   height: 5vh;
   line-height: 5vh;
   font-weight: bold;
-  color: rgb(241, 196, 15);
+  color: cyan;
   text-transform: uppercase;
   font-size: 3em;
   text-align: center;
@@ -209,7 +209,7 @@ html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -web
 
 [[시작하기-&gt;오프닝]]
 
-[[게임소개-&gt;TITLE]]
+(link:&quot;게임소개&quot;)[(goto-url: &quot;https://www.miricanvas.com/design/v/122adz&quot;)]
 &lt;/div&gt;(set: $money to 0)(set: $moral to 40)(set: $skill to (a: &quot;ID카드&quot;))(set: $scene_error to 0)(set: $scene_bird to 0)</tw-passagedata><tw-passagedata pid="2" name="기본" tags="건물" position="630,123" size="100,100">&lt;div class = &quot;title&quot;&gt; Monad &lt;/div&gt; &lt;div class = &quot;info&quot;&gt;	Morality : (print: $moral) &amp;nbsp;&amp;nbsp; Etherium : (print: $money)&lt;/div&gt;                     &lt;div class = &quot;content&quot;&gt;                                                       &lt;br&gt;&amp;nbsp;당신은 꿉꿉한 침대에서 눈을 떠 방을 둘러본다. 옅게 들어오는 햇살과 그것을 막는 때 탄 커튼을 보며 멍하니 앉아 있다. 비명과 고통, 당혹감. 지난 밤 사이버 스페이스에서 일어난 일들이 이따금 떠오르고, 당신은 피곤한듯이 얼굴을 비빈다. &lt;br&gt; 아직도 믿기지 않는 것 같지만 인생이란 때때로 나도 모르는 새에 폭풍 속으로 휘말리곤 하는 것이다. 이 작은 방의 고요함과 평화로움을 즐기며 지친 정신을 회복하고 싶겠지만, 이내 당신의 텔레매틱스 단말이 요란하게 알람을 울린다.당신은 꿉꿉한 침대에서 눈을 떠 방을 둘러본다. 옅게 들어오는 햇살과 그것을 막는 때 탄 커튼을 보며 멍하니 앉아 있다. 비명과 고통, 당혹감. 지난 밤 사이버 스페이스에서 일어난 일들이 이따금 떠오르고, 당신은 피곤한듯이 얼굴을 비빈다. &lt;br&gt; 아직도 믿기지 않는 것 같지만 인생이란 때때로 나도 모르는 새에 폭풍 속으로 휘말리곤 하는 것이다. 이 작은 방의 고요함과 평화로움을 즐기며 지친 정신을 회복하고 싶겠지만, 이내 당신의 텔레매틱스 단말이 요란하게 알람을 울린다. &lt;/div&gt; 
 &lt;table class = &quot;interaction&quot;&gt; &lt;tr&gt;&lt;td&gt;[[다음-&gt;컷씬(오프닝 기본)]]&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;[[뭐라고?-&gt;기본]]&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td style=&quot;border-bottom:none;&quot;&gt;[[이미 알고 있어!-&gt;기본]]&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; 
 &lt;div class = &quot;status&quot;&gt; (for:each  _item, ...$skill) [_item &amp;nbsp;]&lt;/div&gt;  </tw-passagedata><tw-passagedata pid="3" name="Typewriter_F" tags="" position="798,0" size="100,100">{
@@ -338,9 +338,10 @@ html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -web
                    
 몸을 이완시키고 편안한 자세로 시동어를 인식해주세요.&quot;) (display: &quot;Typewriter_F&quot;)&lt;/div&gt;  
 &lt;table class = &quot;interaction&quot;&gt; &lt;tr&gt;&lt;td&gt;(transition-arrive: &quot;shudder&quot;)[[&quot;뉴로 링크!&quot;-&gt;사이버 로딩]]&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td style=&quot;border-bottom:none;&quot;&gt;[[&quot;다른 할 일이 기억났어&quot;-&gt;집]]&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;div class = &quot;status&quot;&gt; (for:each  _item, ...$skill) [_item &amp;nbsp;]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="25" name="외출2" tags="image" position="602,1206" size="100,100">&lt;div class = &quot;title&quot;&gt; Monad &lt;/div&gt; &lt;div class = &quot;info&quot;&gt;	Morality : (print: $moral) &amp;nbsp; Etherium : (print: $money)&amp;nbsp;&amp;nbsp;&lt;/div&gt;           &lt;div class = &quot;content&quot;&gt;                                                 &lt;br&gt; &lt;br&gt;&amp;nbsp(set: $typewriterText to &quot;당신은 간만의 외출에 신나는 기분까지 듭니다. 눈에는 고글을 끼고 코와 입을 막는 반구형 방독면까지 답답하기도 하지만 이상하게 몸은 가볍습니다. 집을 나오며 거울을 보니 글쎄 이 정도면 괜찮다고 생각을 하는군요. 아무튼 셰리가 말한대로 도시는 생각보다 위험합니다. 
-모르는 사람 따라가지 말고... 나쁜 형들이랑 놀면... 아닙니다. 
+&lt;div class = &quot;status&quot;&gt; (for:each  _item, ...$skill) [_item &amp;nbsp;]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="25" name="외출2" tags="image" position="602,1206" size="100,100">&lt;div class = &quot;title&quot;&gt; Monad &lt;/div&gt; &lt;div class = &quot;info&quot;&gt;	Morality : (print: $moral) &amp;nbsp; Etherium : (print: $money)&amp;nbsp;&amp;nbsp;&lt;/div&gt;           &lt;div class = &quot;content&quot;&gt;                                                 &lt;br&gt; &lt;br&gt;&amp;nbsp(set: $typewriterText to &quot;당신은 8년만의 외출에 긴장이 됩니다.. 눈에는 고글을 끼고 코와 입을 막는 반구형 방독면까지 답답하기도 합니다. 하지만 통장잔고는 바닥이 나고 뉴로링크 단말마저 멀쩡하지가 않군요. 심호흡을 하며 불안한 마음을 달래봅니다. 현관의 거울로 보는 당신의 모습은 낯설기도 하네요.
+기억하세요. 셰리가 말한대로 도시는 생각보다 위험합니다. 
 
+             
 당신은 주거포트 3단지를 나와 거리로 나섭니다.&quot;) (display: &quot;Typewriter_F&quot;)&lt;/div&gt;  
 &lt;table class = &quot;interaction&quot;&gt; &lt;tr&gt;&lt;td style=&quot;border-bottom:none;&quot;&gt;[[다음 장-&gt;포트 3단지]]&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; 
 &lt;div class = &quot;status&quot;&gt; (for:each  _item, ...$skill) [_item &amp;nbsp;]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="26" name="사이버3" tags="" position="858,749" size="100,100">&lt;div class = &quot;title&quot;&gt; Monad &lt;/div&gt; &lt;div class = &quot;info&quot;&gt;	Morality : (print: $moral) &amp;nbsp; Etherium : (print: $money)&amp;nbsp;&amp;nbsp;&lt;/div&gt;  (enchant: &quot;401 unauthorized access&quot;, (text-colour: yellow))       &lt;div class = &quot;content&quot;&gt; &lt;br&gt;&lt;br&gt;&amp;nbsp(set: $typewriterText to &quot;당신은 걸치적 거리는 기계장치를 뒤집어 쓴 채, 촌스러운 시동어를 외쳤습니다. 목 뒤가 살짝 찌릿하더니 푹신한 침대의 감촉은 어느새 느껴지지 않습니다. 온 신경이 뇌와 눈에 쏠리듯 묘한 집중력과 고양감이 당신을 감싸기 시작할 때... 
